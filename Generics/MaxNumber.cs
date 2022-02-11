@@ -8,19 +8,16 @@ namespace MaximumNumber
 {
     public class MaxNumber
     {
-        public int FindMaxNumber(int inputFirst,int inputSecond,int inputThird)
+        public static void Print<T>(T[] inputArray)
         {
-            if(inputFirst.CompareTo(inputSecond)>0 && inputFirst.CompareTo(inputThird) > 0)
+           
             {
-                return inputFirst;
-            }
-            if(inputSecond.CompareTo(inputFirst)>0 && inputSecond.CompareTo(inputThird) > 0)
-            {
-                return inputSecond;
-            }
-            else
-            {
-                return inputThird;
+                foreach (var element in inputArray)
+                {
+                    Console.WriteLine(element);
+                }
+                
+
             }
         }
     }
