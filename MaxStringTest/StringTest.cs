@@ -23,8 +23,9 @@ namespace MaxStringTest
         public void Third_Position_String_TestCase()
         {
             MaxString maxString = new MaxString();
-            string result = maxString.FindMaxString("Peach", "Apple","Banana");
+            string result = maxString.FindMaxString("Peach", "Apple", "Banana");
             Assert.AreEqual("Banana", result);
         }
-    }}
+    }
+}
         
